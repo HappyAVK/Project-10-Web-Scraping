@@ -56,9 +56,7 @@ def send_mail(tour):
             print("Sent!")
 
 
-            tour_list.append(f"{tour}\n")
-            with open("recorded_tours.txt", "w")as file:
-                file.writelines(tour_list)
+
 
 
         else:
